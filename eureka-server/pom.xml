@@ -11,8 +11,14 @@
 
     <artifactId>demo-spring-cloud-routing-eureka-server</artifactId>
     <name>demo-spring-cloud-routing-eureka-server</name>
+    <packaging>jar</packaging>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <version>2.2.3.RELEASE</version>
+        </dependency>
     </dependencies>
 
     <build>
